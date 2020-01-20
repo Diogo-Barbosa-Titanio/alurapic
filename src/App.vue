@@ -17,7 +17,7 @@
     },
     data() {
       return {
-        route: routes
+        route: routes.filter(route => route.menu)
       }
     }
   }
